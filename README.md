@@ -2,7 +2,13 @@
 
 Mobile Programming is [Haaga Helia's](https://www.haaga-helia.fi/en/frontpage) 4th semester course for software development students. The course contains the basics of React Native and students will develop their own mobile app at the end of the course. This site contains some example apps that students have made during the course.
 
-## Year 2022
+
+### Password Manager
+
+A password manager application built with Expo and React Native. The app generates random passwords and securely stores them in Firebase Realtime Database, along with associated provider and username information. User authentication is managed through Firebase, providing each user with access to their encrypted password information based on their unique ID. Random passwords are generated with PasswordWolf API while encryption and decryption are implemented using the crypto-js library, which adheres to cryptographic standards. Expo Crypto is used to generate random keys associated with user IDs for encryption and decryption processes.
+
+![screenshot]({{ site.baseurl }}/img/pwmanager1.jpg)![screenshot]({{ site.baseurl }}/img/pwmanager2.jpg)
+![screenshot]({{ site.baseurl }}/img/pwmanager3.jpg)
 
 ### Doctor App
 
@@ -27,9 +33,6 @@ This is React Native app for listing and finding small 3rd wave coffee shops who
 
 ![screenshot]({{ site.baseurl }}/img/coffee_grind1.jpg)![screenshot]({{ site.baseurl }}/img/coffee_grind2.jpg)
 ![screenshot]({{ site.baseurl }}/img/coffee_grind3.jpg)
-
-
-## Year 2021
 
 ### Fitness app
 
@@ -103,9 +106,6 @@ With this app,  users can find the lyric of favorite songs in all over the world
 
 ![screenshot]({{ site.baseurl }}/img/lyricsapp1.jpg) ![screenshot]({{ site.baseurl }}/img//lyricsapp2.jpg) ![screenshot]({{ site.baseurl }}/img//lyricsapp3.jpg) 
 
-
-## Fall 2020
-
 ### Nutritionix
 by Petra Pylkki
 
@@ -160,9 +160,6 @@ Travsinki is an app for searching places in Helsinki. The app shows restaurants,
 
 ![screenshot]({{ site.baseurl }}/img/trav1.PNG) ![screenshot]({{ site.baseurl }}/img/trav2.PNG) ![screenshot]({{ site.baseurl }}/img/trav3.PNG) 
 
-
-## Spring 2020
-
 ### MovieBox
 by Bohan Liu
 
@@ -212,8 +209,6 @@ by Anastasiia Burkova
 Vacay is a traveling blog app. Users can write, modify or delete their blog posts and read the blog posts of other users. Blogs are sorted by countries that is based on the user’s post location. Every user has a personal map where he can see all the locations he has been visiting and writing about. There is also a possibility to search flight tickets in order to expand the traveling experience. Skyscanner Rapid API is used for that purpose. 
 
 ![screenshot]({{ site.baseurl }}/img/vacay1.PNG) ![screenshot]({{ site.baseurl }}/img/vacay2.PNG) ![screenshot]({{ site.baseurl }}/img/vacay3.PNG)
-
-## Fall 2019
 
 ### TopySoft
 by Vivian Bridy
